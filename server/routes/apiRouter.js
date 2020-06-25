@@ -1,7 +1,7 @@
-const exprses = require('express');
+const express = require('express');
 const router = express.Router();
 
-app.get('/', (req, res) => res.status(200).json({
+router.get('/', (req, res) => res.status(200).json({
   message: 'HI'
 }))
 

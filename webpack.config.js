@@ -26,9 +26,6 @@ module.exports = {
           options: {
             presets: ['@babel/preset-env', '@babel/preset-react']
           },
-          // query: {
-          //   presets: ['es2015', 'react']
-          // }
         }
       },
       {
@@ -38,8 +35,4 @@ module.exports = {
       }
     ],
   },
-  // plugins: [
-  //   new MinifyPlugin()
-  // ]
-  // plugins: [new MiniCssExtractPlugin()],
 }
